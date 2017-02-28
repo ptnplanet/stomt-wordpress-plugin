@@ -1,0 +1,1 @@
+<input id="<?php echo esc_html($label_for); ?>" name="stomt_options[<?php echo esc_html($label_for); ?>]" type="color" value="<?php echo esc_html( $options[$label_for] ); ?>" />

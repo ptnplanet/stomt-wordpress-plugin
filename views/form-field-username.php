@@ -1,0 +1,1 @@
+<input id="<?php echo esc_html($label_for); ?>" name="stomt_options[<?php echo esc_html($label_for); ?>]" type="text" class="regular-text" placeholder="<?php esc_html_e( 'Name of your stomt page', 'stomt' ); ?>" value="<?php echo esc_html($options[$label_for]); ?>" />

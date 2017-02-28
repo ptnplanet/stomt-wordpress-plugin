@@ -1,0 +1,2 @@
+<input type="radio" name="stomt_options[<?php echo esc_html($label_for); ?>]"<?php if ( $options[$label_for] == 'left' ) { echo ' checked="checked"'; } ?> value="left">left</input>
+<input type="radio" name="stomt_options[<?php echo esc_html($label_for); ?>]"<?php if ( $options[$label_for] == 'right' ) { echo ' checked="checked"'; } ?> value="right">right</input>

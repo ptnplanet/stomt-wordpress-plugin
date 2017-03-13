@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Stomt Instant Feedback Button
+Plugin Name: STOMT Instant Feedback Button
 Plugin URI:  https://wordpress.org/plugins/stomt-instant-feedback-button/
-Description: Add stomt's instant feedback widget to your wordpress site.
-Version:     1.0
+Description: Add STOMT's instant feedback widget to your wordpress site.
+Version:     1.1
 Author:      Philipp Nolte
 Author URI:  https://profiles.wordpress.org/ptnplanet/
 Text Domain: wporg

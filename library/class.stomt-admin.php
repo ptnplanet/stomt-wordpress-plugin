@@ -42,7 +42,7 @@ class Stomt_Admin {
 	
 	public static function admin_menu_hook() {
 		register_setting( 'stomt_options', 'stomt_options', array( 'Stomt_Admin', 'validate_settings' ) );
-		add_options_page(__( 'Stomt', 'stomt' ), __( 'Stomt', 'stomt' ), 'manage_options', 'stomt-admin', array( 'Stomt_Admin', 'display_setup_page' ));
+		add_options_page(__( 'STOMT', 'stomt' ), __( 'STOMT', 'stomt' ), 'manage_options', 'stomt-admin', array( 'Stomt_Admin', 'display_setup_page' ));
 	}
 	
 	public static function display_setup_page() {		
@@ -53,14 +53,14 @@ class Stomt_Admin {
 	private static function init_settings_fields() {
 		
 		add_settings_section( 'stomt-main',
-				__( 'Setup Stomt', 'stomt' ),
+				__( 'Setup STOMT', 'stomt' ),
 				array( 'Stomt_Admin', 'print_stomt_general_section' ),
 				'stomt-admin'
 			);
 		
 		add_settings_field(
 				'targetId',
-				__( 'Stomt Username', 'stomt' ),
+				__( 'STOMT Username', 'stomt' ),
 				array( 'Stomt_Admin', 'print_stomt_username_field' ),
 				'stomt-admin',
 				'stomt-main',

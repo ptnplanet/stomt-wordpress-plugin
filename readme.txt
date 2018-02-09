@@ -1,5 +1,5 @@
 === STOMT - Instant Feedback Button ===
-Contributors: ptnplanet
+Contributors: ptnplanet, stomt
 Tags: feedback, stomt, button
 Requires at least: 3.7
 Tested up to: 4.7
